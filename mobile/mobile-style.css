@@ -1,0 +1,106 @@
+.lilo-back {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.lilo-back img {
+  max-width: 20px;
+}
+
+.back-to-website {
+  text-decoration: underline;
+  color: #404040;
+}
+
+.lilo-logo {
+  text-align: center;
+  max-width: 100%;
+  margin: 40px;
+}
+.lilo-logo img {
+  max-width: 200px;
+}
+
+.lilo-login-title {
+  font-size: 22px;
+  color: #f98731;
+}
+.lilo-username {
+  max-width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.lilo-username input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #f98731;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+.lilo-password {
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.lilo-password input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #f98731;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.login-to-your-account {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.lilo-label-mobile {
+  text-align: right;
+}
+.lilo-label {
+  color: #f98731;
+  text-align: right;
+}
+.lilo-submit {
+  max-width: 300px;
+  margin: auto;
+  background: #f98731;
+  border-radius: 5px;
+}
+.lilo-submit button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  height: 40px;
+  width: 300px;
+}
+
+.lilo-agree {
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.lilo-cant-login {
+  text-align: center;
+  margin-top: 20px;
+}
+.lilo-cant-login a {
+  text-decoration: underline;
+  color: #676767;
+}
+
+.lilo-footer {
+  /* margin-top: 60px; */
+  text-align: center;
+  position: absolute;
+  bottom: 5vh;
+  width: 100%;
+  /* height: 2.5rem; */
+}
