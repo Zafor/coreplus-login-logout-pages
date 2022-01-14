@@ -102,5 +102,84 @@
   position: absolute;
   bottom: 5vh;
   width: 100%;
+  color: #676767;
   /* height: 2.5rem; */
+}
+
+/* Logout mobile */
+
+.lilo-logout-title {
+  font-size: 22px;
+  color: #f98731;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.lilo-submit-logout {
+  max-width: 300px;
+  margin: auto;
+  background: #f98731;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.logout-login {
+  color: #fff;
+  height: 140px;
+  padding-top: 40px;
+}
+.logout-login:hover {
+  color: #fff;
+  height: 140px;
+  padding-top: 40px;
+}
+
+/* Username Password Reset Request */
+
+.mobile-un-pass-block {
+  max-width: 300px;
+  margin: auto;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.lilo-mobile-un-pass {
+  max-width: 300px;
+  margin: auto;
+  color: #404040;
+}
+.mobile-forgot-title {
+  color: #404040;
+  margin: auto;
+  text-align: center;
+}
+
+.mobile-forgot-content {
+  max-width: 250px;
+  color: #737373;
+  margin: auto;
+}
+
+.lilo-footer-un-pass {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  color: #676767;
+  /* height: 2.5rem; */
+}
+
+.lilo-m-10 {
+  margin: 10px;
+}
+.lilo-m-20 {
+  margin: 20px;
+}
+.lilo-mt-20 {
+  margin-top: 20px;
 }
