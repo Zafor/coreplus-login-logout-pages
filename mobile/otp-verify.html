@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP Verify | coreplus</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/mobile/mobile-style.css" />
+    <script src="/mobile/script.js"></script>
+  </head>
+  <body>
+    <div id="page-container" class="container">
+      <div class="row" id="content-wrap">
+        <div class="lilo-back">
+          <a href="" class="back-to-website">
+            <img src="/mobile/img/back-button.png" alt="" />
+            <span> Back to website </span>
+          </a>
+        </div>
+
+        <div class="lilo-logo">
+          <img src="/img/logo.png" alt="" />
+        </div>
+
+        <div class="pass-reset-icon">
+          <img src="/mobile/img/otp-verify.svg" alt="" />
+        </div>
+
+        <div class="opt-verify-text">
+          Enter the 5 digit code sent to mobile 04********27 below and verify.
+        </div>
+
+        <form
+          method="get"
+          class="digit-group"
+          data-group-name="digits"
+          data-autosubmit="false"
+          autocomplete="off"
+        >
+          <div class="otp-verify-input">
+            <div class="otp-verify-code">
+              <input
+                type="text"
+                id="digit-1"
+                name="digit-1"
+                data-next="digit-2"
+              />
+              <input
+                type="text"
+                id="digit-2"
+                name="digit-2"
+                data-next="digit-3"
+                data-previous="digit-1"
+              />
+              <input
+                type="text"
+                id="digit-3"
+                name="digit-3"
+                data-next="digit-4"
+                data-previous="digit-2"
+              />
+              <!-- 	<span class="splitter">&ndash;</span> -->
+              <input
+                type="text"
+                id="digit-4"
+                name="digit-4"
+                data-next="digit-5"
+                data-previous="digit-3"
+              />
+              <input
+                type="text"
+                id="digit-5"
+                name="digit-5"
+                data-next="digit-6"
+                data-previous="digit-4"
+              />
+            </div>
+            <div class="lilo-label-otp-veify">
+              <div class="lilo-label">
+                <button for="password" class="">Resend Code</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="lilo-submit">
+            <button type="submit" class="lilo-uppercase-text">Verify</button>
+          </div>
+        </form>
+
+        <div class="lilo-need-help">
+          <a href=""> Need Help?</a>
+        </div>
+        <div class="lilo-cant-login">
+          <a href=""> Back to login</a>
+        </div>
+      </div>
+    </div>
+    <div class="lilo-footer-pass-reset" id="footer">
+      © 2022 coreplus. All rights reserved.
+    </div>
+  </body>
+</html>
