@@ -29,6 +29,17 @@
 
 /*  End Lilo Global Styles*/
 
+/* Desktop view */
+
+.desktop-left-lilo {
+  width: 50vw;
+}
+.desktop-right-lilo {
+  width: 50vw;
+}
+
+/* End Desktop view */
+
 .lilo-back {
   text-align: center;
   margin-top: 40px;
@@ -139,10 +150,10 @@
 }
 
 .lilo-footer {
-  /* margin-top: 60px; */
+  margin-top: 60px;
   text-align: center;
-  position: absolute;
-  bottom: 5vh;
+  /* position: absolute; */
+  /* bottom: 5vh; */
   width: 100%;
   color: #676767;
   /* height: 2.5rem; */
@@ -181,13 +192,27 @@
 /* Username Password Reset Request */
 
 .mobile-un-pass-block {
-  max-width: 300px;
-  margin: auto;
+  max-width: 200px;
+  /* margin: auto; */
+  margin: 10px;
   border: 1px solid #ebebeb;
   border-radius: 5px;
-  padding: 40px;
+  padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .mobile-un-pass-block {
+    max-width: 200px;
+    margin: auto;
+    /* margin: 20px; */
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 .lilo-mobile-un-pass {
@@ -265,7 +290,7 @@
 }
 
 .pass-reset-icon {
-  padding: 40px;
+  padding: 20px;
   max-width: 300px;
   margin: auto;
   text-align: center;
