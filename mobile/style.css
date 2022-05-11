@@ -4,6 +4,10 @@
   justify-content: space-between;
 } */
 
+body {
+  overflow:scroll;
+}
+
 .lilo-right {
   background-image: url("/mobile/img/lilo-right-bg.svg");
   background-position: center center;
